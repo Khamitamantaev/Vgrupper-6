@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
 
-const apiUrl = 'http://192.168.0.7:8080/api/auth/';
+const apiUrl = 'http://localhost:8080/api/auth/';
 
 @Injectable({
 providedIn: 'root'
